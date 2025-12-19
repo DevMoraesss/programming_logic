@@ -1,3 +1,5 @@
+// Crie um algoritmo que leia dois números inteiros informados pelo usuário e exiba a soma entre eles.
+
 programa {
   funcao inicio() {
     inteiro a, b

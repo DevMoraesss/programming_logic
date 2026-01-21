@@ -12,6 +12,14 @@ programa {
         escreva("Divisivel por: ", contador, "\n")
       }
     }
+
+    se(totalDivisores == 2) {
+      escreva("O número ", numero, "É PRIMO!")
+    }
+    senao {
+      escreva("O número ", numero, "NÃO É PRIMO.\n")
+      escreva("Ele foi divisível ", totalDivisores, " vezes.")
+    }
     
   }
 }
